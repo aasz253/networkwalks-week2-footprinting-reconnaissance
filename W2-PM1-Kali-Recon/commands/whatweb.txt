@@ -1,0 +1,2 @@
+$ whatweb networkwalks.com
+[INSERT RESULT — paste actual terminal output here. Do not copy course examples if scan differs.]

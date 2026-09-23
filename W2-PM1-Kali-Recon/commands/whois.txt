@@ -1,0 +1,2 @@
+$ whois networkwalks.com
+[INSERT RESULT — paste actual terminal output here. Do not fabricate.]

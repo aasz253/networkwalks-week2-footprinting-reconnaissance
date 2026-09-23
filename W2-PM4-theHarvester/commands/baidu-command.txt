@@ -1,0 +1,2 @@
+$ theHarvester -d microsoft.com -l 1000 -b baidu
+[Command record — Task 1. Paste actual executed command + date/tool version. Run only where permitted.]

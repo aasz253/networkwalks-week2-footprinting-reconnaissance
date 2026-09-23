@@ -1,0 +1,2 @@
+$ curl -I https://networkwalks.com
+[INSERT RESULT — paste actual headers here. Do not claim headers not shown in output.]

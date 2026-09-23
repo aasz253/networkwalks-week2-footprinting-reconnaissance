@@ -1,0 +1,15 @@
+# Nmap / Zenmap commands (authorized lab subnet only)
+
+# Task 2 — local addressing (Windows / Linux)
+# ipconfig
+# ip addr
+# ip route
+# Actual IP/subnet: [ACTUAL RESULT]
+
+# Task 3 — host discovery — replace [YOUR_SUBNET] with your actual authorized subnet
+# nmap -sn [YOUR_SUBNET]
+
+# Example only — do NOT run against 10.0.0.0/24 unless it is your authorized lab subnet:
+# nmap -sn 10.0.0.0/24
+
+[INSERT RESULT — paste actual commands executed + date/Nmap version]

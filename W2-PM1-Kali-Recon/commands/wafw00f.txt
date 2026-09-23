@@ -1,0 +1,2 @@
+$ wafw00f networkwalks.com
+[INSERT RESULT — paste actual output here. Fingerprinting only; not a security verdict.]

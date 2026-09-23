@@ -1,0 +1,2 @@
+$ theHarvester -d microsoft.com -l 50 -b all
+[INSERT RESULT — paste actual tool output here. Note sources that failed/rate-limited.]

@@ -1,0 +1,2 @@
+$ dnsrecon -d networkwalks.com
+[INSERT RESULT — paste actual output here. Do not publish sensitive data unnecessarily.]

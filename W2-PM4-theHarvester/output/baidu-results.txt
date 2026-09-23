@@ -1,0 +1,2 @@
+$ theHarvester -d microsoft.com -l 1000 -b baidu
+[INSERT RESULT — paste actual tool output here. Do not fabricate counts, hosts, or emails.]

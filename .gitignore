@@ -1,0 +1,16 @@
+# Secure defaults — do not commit secrets
+.env
+*.key
+*.pem
+*.p12
+*.pfx
+credentials.txt
+passwords.txt
+secrets.txt
+*.log
+__pycache__/
+.DS_Store
+Thumbs.db
+# Lab artifacts that may contain sensitive data — review before force-adding
+# *.pcap
+# *.gnmap
