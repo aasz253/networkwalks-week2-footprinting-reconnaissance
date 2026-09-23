@@ -1,6 +1,7 @@
 # W2-PM4 — Footprinting & Reconnaissance with theHarvester
 
-> Run these commands only where permitted by the training scope and current tool/source availability. Public sources and rate limits change — record what actually happened.
+> Only running these where the training allows. Baidu / `all` sources are flaky
+> sometimes (rate limits, dead sources) so I'll note what actually returned.
 
 ## Task 1 — Baidu source
 

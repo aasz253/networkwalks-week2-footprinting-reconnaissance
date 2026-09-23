@@ -1,6 +1,7 @@
 # W2-PM5 — Network Scanning with Zenmap
 
-> Perform host discovery ONLY on your authorized local lab subnet. Do not scan networks you do not own or lack written permission for.
+> Lab subnet only — I'm only scanning my own VirtualBox/host network, nothing else.
+> Still need to confirm my actual subnet with ipconfig, not assuming 10.0.0.0/24.
 
 ## Task 1 — Install Zenmap / Nmap
 
