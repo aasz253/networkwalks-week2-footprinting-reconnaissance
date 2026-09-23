@@ -46,10 +46,7 @@ Ping/host discovery (`nmap -sn`) on an authorized lab subnet answers: what is al
 Attackers start with reconnaissance; defenders must do it first — inventory, exposure review, hardening, monitoring — so there is less for an adversary to find. Evidence discipline (raw output + screenshots + scope notes) makes findings trustworthy and actionable.
 
 ---
-*Fill in personal takeaways below as you complete labs:*
+*My takeaways so far (updating as I finish each PM):*
 
-* [Your takeaway — W2-PM1]:
-* [Your takeaway — W2-PM2]:
-* [Your takeaway — W2-PM3]:
-* [Your takeaway — W2-PM4]:
-* [Your takeaway — W2-PM5]:
+* W2-PM1: haven’t run the full set yet, but even the `--version` checks reminded me how much a banner/version leak gives away. Will write more once whois/whatweb outputs are in.
+* W2-PM2 → W2-PM5: pending — filling in after the labs.

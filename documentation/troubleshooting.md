@@ -1,10 +1,11 @@
 # Troubleshooting
 
-> Only document issues that actually happened. Do not invent problems. Copy a row per real issue.
+Nothing major hit yet — will log real issues here as they come up.
 
 | Issue | Symptoms | Investigation | Solution | Result |
 | ----- | -------- | ------------- | -------- | ------ |
-| [Actual issue] | [Symptoms] | [What I checked] | [Solution] | [Result] |
+| Zenmap locale warning on Kali | `DeprecationWarning: 'locale.getdefaultlocale'` on launch | Checked `/usr/lib/python3/dist-packages/zenmapCore/I18N.py:77` — old Python call, app still opens | Ignoring for now, using Nmap CLI if Zenmap acts up | Pending — confirm topology export works |
+| [Next real issue] | [Symptoms] | [What I checked] | [Solution] | [Result] |
 
 ## Notes
 
