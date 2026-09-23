@@ -1,9 +1,20 @@
 # W2-PM1 — Footprinting & Reconnaissance with Multiple Kali Tools
 
 **Target (training):** `networkwalks.com`
-**Scope:** [Describe the authorized training scope — e.g., passive reconnaissance against own lab / instructor-authorized target only]
+**Scope:** my own lab + whatever the instructor cleared — passive recon only for this one
 
-> Do not assume values from training material are still current. Record actual output at time of execution.
+> Re-checking everything live, not trusting the screenshots in the course slides
+> since WHOIS/DNS stuff changes. What I paste in `commands/` is what I actually got.
+
+## My lab notes
+
+Ran `--version` checks on 23 Sep 2026 so I know my baseline before the real runs:
+
+```text
+whois 5.6.6 / WhatWeb 0.6.4 / curl 8.20.0 / dnsrecon 1.3.1
+```
+
+Outputs + screenshots still to come. Leaving the placeholders until then.
 
 ## Tasks
 

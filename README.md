@@ -6,21 +6,45 @@
 Training: NetworkWalks Cybersecurity & Ethical Hacking
 Week: 2
 Projects: W2-PM1 → W2-PM5
-Platform: Kali Linux / Windows / Virtual Lab
-Student: [YOUR NAME]
+Platform: Kali Linux (VM) + Windows host
+Student: aasz253
 Batch: [YOUR BATCH]
 Date: [DATE]
 ```
 
-> Do not invent identity, batch, date, or contact details. Replace placeholders above with your own information before submission.
+> Still filling this in as I go — batch/date to update before submission.
+
+---
+
+## My setup
+
+Working through this on my Kali VM. Real versions from my box (checked 23 Sep 2026):
+
+```text
+OS: Kali GNU/Linux Rolling 2026.2 (kernel 6.19.14+kali-amd64)
+whois 5.6.6
+WhatWeb 0.6.4
+curl 8.20.0
+dnsrecon 1.3.1
+Nmap 7.99
+theHarvester (installed, /usr/bin/theHarvester)
+Zenmap (installed, throws a Python locale DeprecationWarning on launch — still opens)
+Maltego: not installed yet
+```
+
+Windows side used for `ipconfig` + Zenmap topology part in PM5.
 
 ---
 
 ## Overview
 
-Week 2 focuses on **footprinting, passive/active reconnaissance, OSINT, and network discovery** — the foundation of every authorized security assessment. This repository documents hands-on practical work performed in a controlled, authorized lab environment.
+Week 2 is all about footprinting and recon — basically learning what you can find
+out about a target without touching anything you're not supposed to. I'm doing
+all of this in my own lab / against instructor-approved targets only.
 
-No results are fabricated. Where a task has not yet been performed, placeholders (`[INSERT RESULT]`, `[ACTUAL RESULT]`) are used. Screenshots and raw tool outputs constitute the primary evidence.
+Honest note: where I haven't run something yet I left `[INSERT RESULT]` /
+`[ACTUAL RESULT]` markers instead of guessing. Raw outputs + screenshots are
+the actual proof, so those folders are empty until I work through each task.
 
 ---
 
@@ -156,15 +180,23 @@ Screenshot files are not committed in this template — add your own `.png` file
 
 ---
 
-## How to Complete This Repository
+## How I'm working through this
 
-1. Perform each task in your authorized lab.
-2. Copy the raw terminal output into the corresponding file under `commands/` or `output/`, replacing `[INSERT RESULT]`.
-3. Save screenshots with the exact filenames referenced in each module README.
-4. Fill in each `report/findings.md` with actual findings.
-5. Update the Status column in the Module Navigation table above (`[ ]` → `[x]`) only when evidence is present.
-6. Fill in `documentation/troubleshooting.md` only with issues that actually occurred.
-7. Review the Final Quality Check before pushing to GitHub.
+1. Run each command in my lab, paste the real terminal output into `commands/` or `output/`.
+2. Screenshot it, keep the filenames exactly as each module README says.
+3. Write up what I actually saw in `report/findings.md`.
+4. Only tick the box in the table above when the evidence is really there.
+5. Anything weird that breaks goes in `documentation/troubleshooting.md`.
+
+## Progress log
+
+```text
+23 Sep 2026 — repo scaffolded, tool versions noted. PM1 outputs + screenshots still pending.
+[DATE] — PM1 whois/whatweb run ......... [ ]
+[DATE] — PM4 theHarvester runs .......... [ ]
+[DATE] — PM5 lab subnet scan ............ [ ]
+```
+
 
 ---
 
