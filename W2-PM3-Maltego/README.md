@@ -30,6 +30,9 @@ OS: [e.g., Kali Linux]
 
 Screenshots:
 
+* `screenshots/01-installation.jpg` — done, my shot: `sudo dpkg -i Maltego.v4.3.0.deb`
+  on Kali (first try without sudo failed as expected, second with sudo installed
+  4.3.0). File kept as .jpg since that's the original format.
 * `screenshots/02-account-setup.png` → [INSERT RESULT]
 * `screenshots/03-domain-entity.png` → [INSERT RESULT]
 * `screenshots/04-transform-results.png` → [INSERT RESULT]

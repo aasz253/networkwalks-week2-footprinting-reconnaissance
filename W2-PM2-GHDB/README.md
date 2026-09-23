@@ -35,6 +35,12 @@ Findings template: [evidence/findings.md](evidence/findings.md)
 
 Save methodology/authorized-lab evidence (with sensitive details redacted) in `screenshots/` with descriptive filenames, e.g. `01-methodology-overview.png`.
 
+Note on file present: `screenshots/00-sqlmap-unrelated.jpg` shows a sqlmap
+session enumerating local lab databases (dvwa, metasploit, owasp10, etc.). That
+is exploitation tooling, not GHDB search-engine recon, so I'm NOT counting it
+as PM2 evidence — leaving the file in place until I replace it with real
+GHDB-methodology shots, or delete it before submission.
+
 ## Evidence Checklist
 
 ```text

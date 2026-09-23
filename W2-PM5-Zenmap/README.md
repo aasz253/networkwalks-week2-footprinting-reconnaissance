@@ -50,6 +50,10 @@ Full command history: [commands/nmap-commands.txt](commands/nmap-commands.txt)
 
 Screenshots:
 
+* `screenshots/00-quick-scan-extra.jpg` — extra, not the assigned task: Zenmap
+  Quick scan (`nmap -T4 -F 192.168.249.149`) showing open tcp ports on one host.
+  Proves Zenmap runs; the required ping-scan host discovery + topology shots
+  (`01-ipconfig.png` … `05-topology.png`) are still pending.
 * `screenshots/02-ping-scan.png` — scan configuration / command → [INSERT RESULT]
 * `screenshots/03-live-hosts.png` — live hosts list → [INSERT RESULT]
 * `screenshots/04-host-details.png` — selected host details → [INSERT RESULT]

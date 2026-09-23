@@ -113,6 +113,15 @@ Screenshot: `screenshots/06-dnsrecon.png` → [INSERT RESULT]
 
 See [report/findings.md](report/findings.md).
 
+## Screenshots on file
+
+* `screenshots/00-autorecon-extra.jpg` — extra, not a required task: shows an
+  `sudo autorecon <redacted>.com` run with open tcp ports (25/993/21/995/110/
+  53/80/143/587/443/2525) and 3 scans still running. Target name redacted in
+  the image. Keeping it here as background only.
+* Required shots still pending: `01-whois.png`, `02-whatweb.png`,
+  `03-nslookup.png`, `04-curl-headers.png`, `05-wafw00f.png`, `06-dnsrecon.png`.
+
 ## Evidence Checklist
 
 ```text

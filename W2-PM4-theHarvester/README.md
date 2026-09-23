@@ -34,6 +34,13 @@ theHarvester -d microsoft.com -l 50 -b all
 
 Save actual output — do not fabricate. See [report/findings.md](report/findings.md).
 
+## Screenshots on file
+
+* `screenshots/00-tool-version.png` — supporting only: `./theHarvester.py -v`
+  from `~/theHarvester` showing v3.2.3 banner. Proves the tool runs, not the
+  assigned searches.
+* Still pending: `01-baidu-results.png` (Task 1), `02-all-sources-results.png` (Task 2).
+
 ## Evidence Checklist
 
 ```text
